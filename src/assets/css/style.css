@@ -1,0 +1,131 @@
+/* 风格样式设置 */
+
+/* 字体设置 */
+.xu-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.xu-sub-title {
+	font-size: 16px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.xu-meta {
+	font-size: 12px;
+	color: #b4b4b4;
+}
+
+/* ---------主题设置----------- */
+.xu-primary-theme {
+	background-color: #009688;
+	color: #fff;
+}
+
+.xu-warning-theme {
+	background-color: #fb8c00;
+	color: #fff;
+}
+
+.xu-success-theme {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.xu-disable-theme {
+	background-color: #e0e0e0;
+	color: #fff;
+}
+
+/* --------------按钮设置------------ */
+.xu-btn {
+	border: none;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.xu-btn-round {
+	border-radius: 20px;
+}
+
+.xu-btn-circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.xu-btn-normal {
+	width: 120px;
+	height: 35px;
+}
+
+.xu-btn-large {
+	width: 140px;
+	height: 45px;
+}
+
+/* 表单元素样式 */
+.xu-input-box {
+	display: block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	height: 35px;
+}
+
+/* 阴影样式 */
+.xu-shadow {
+	box-shadow: 2px 5px 10px #aaa;
+}
+
+/* 头像样式 */
+.xu-avatar {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	
+}
+
+/* 导航条设置 */
+.xu-nav {
+	display: flex;
+	height: 80px;
+	background:rgb(255, 227, 0);
+}
+
+/* 最里面灰色的盒子 */
+.xu-nav-bar {
+	width: 65%;
+	background-color: #AAAAAA;
+}
+/* 导航 */
+.xu-nav-bar ul{
+	display:table;
+	text-align: center;
+}
+.xu-list {
+	display: inline-block;
+	margin:0 auto;
+}
+
+.xu-list li {
+	display: inline-block;
+	color: #ADD8E6;
+	line-height: 80px;
+}
+.xu-list li:hover{
+	background-color: rgb(40, 40, 40);
+	height: 80px;
+}
+
+/* 超链接样式 */
+.xu-list li a {
+	color: rgb(255, 255, 255);
+	margin: 50px;
+}
+/* 路由激活高亮样式 */
+.router-link-active {
+	color: #fff;
+	font-weight: 700;
+}
